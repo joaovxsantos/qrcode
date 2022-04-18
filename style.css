@@ -1,0 +1,42 @@
+body{
+    background-color: #d5e1ef
+}
+
+.container{
+    background-color: #fffeff;
+    width: 270px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width:400px){
+    .container{
+        width: 230px;
+        margin-top: 30%;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    .code{
+        width: 190px;
+        margin-top: 10%;
+        margin-left: 50%;
+        transform: translate(-50%);
+        border-radius: 20px;
+    }
+    h1{
+        font-size: 15px;
+        position: absolute;
+        top: 55%;
+        left: 15%;
+        font-weight: 700;
+    }
+    h2{
+        font-size: 13px;
+        /* position: absolute; */
+        margin-top: 25%;
+        text-align: center;
+        color: rgb(155, 153, 153);
+    }
+    
+}
