@@ -19,14 +19,7 @@ body {
         transform: translate(-50%);
     }
 
-    h1{
-        font-size: 13px;
-        position: absolute;
-        top: 62%;
-        left: 20%;
-
-
-    }
+    
 
     .code {
         width: 190px;
@@ -37,12 +30,26 @@ body {
 
     }
 
+    h1{
+        font-size: 13px;
+        position: absolute;
+        top: 62%;
+        left: 19%;
+        text-align: center;
+        
+        
+
+
+    }
+
     h2 {
         font-size: 13px;
         margin-top: 27%;
         text-align: center;
         color: rgb(155, 153, 153);
     }
+
+    
 
 
 }
