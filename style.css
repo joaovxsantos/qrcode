@@ -1,8 +1,8 @@
-body{
+body {
     background-color: #d5e1ef
 }
 
-.container{
+.container {
     background-color: #fffeff;
     width: 270px;
     height: 400px;
@@ -10,33 +10,39 @@ body{
 }
 
 
-@media screen and (max-width:400px){
-    .container{
+@media screen and (max-width:414px) {
+    .container {
         width: 230px;
+        height: 350px;
         margin-top: 30%;
         margin-left: 50%;
         transform: translate(-50%);
     }
-    .code{
+
+    h1{
+        font-size: 13px;
+        position: absolute;
+        top: 62%;
+        left: 20%;
+
+
+    }
+
+    .code {
         width: 190px;
         margin-top: 10%;
         margin-left: 50%;
         transform: translate(-50%);
         border-radius: 20px;
+
     }
-    h1{
-        font-size: 15px;
-        position: absolute;
-        top: 55%;
-        left: 15%;
-        font-weight: 700;
-    }
-    h2{
+
+    h2 {
         font-size: 13px;
-        /* position: absolute; */
-        margin-top: 25%;
+        margin-top: 27%;
         text-align: center;
         color: rgb(155, 153, 153);
     }
-    
+
+
 }
