@@ -34,7 +34,7 @@ body {
 
     h2 {
         font-size: 11px;
-        margin-top: 23%;
+        margin-top: 8%;
         text-align: center;
         color: rgb(155, 153, 153);
     }
@@ -42,6 +42,12 @@ body {
     footer{
         margin-top: 100px;
         margin-left: 20px;
+    }
+
+    .one{
+        color: black;
+        font-weight: 800;
+        font-size: 15px;
     }
 }
 
